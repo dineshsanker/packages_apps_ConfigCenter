@@ -44,4 +44,14 @@
     <string name="lockscreen_tuner_title">Lockscreen bottom shortcuts</string>
     <string name="lockscreen_tuner_summary">Customize bottom left and right shortcuts</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
 </resources>
