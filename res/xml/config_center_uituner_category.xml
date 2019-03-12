@@ -44,6 +44,12 @@
             android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="category_custom_header"
+            android:title="@string/statusbar_header_category_title"
+            android:summary="@string/statusbar_header_category_summary"
+            android:fragment="org.cesium.config.center.fragments.StatusbarHeader" />
+
     </PreferenceCategory>
 
     <org.cesium.config.center.preferences.SystemSettingSwitchPreference
