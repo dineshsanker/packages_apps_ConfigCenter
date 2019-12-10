@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2020 The CesiumOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    android:title="@string/about_category"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:key="links_category"
+        android:title="@string/links_category" >
+
+        <Preference
+            android:title="@string/downloads_title"
+            android:summary="@string/downloads_summary"
+            android:icon="@drawable/website_icon">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://sourceforge.net/projects/cesiumos-org/files/"/>
+        </Preference>
+
+        <Preference
+            android:title="@string/telegram_channel"
+            android:summary="@string/telegram_channel_summary"
+            android:icon="@drawable/telegram_icon">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/CesiumOS_News"/>
+        </Preference>
+
+        <Preference
+            android:title="@string/telegram_chat"
+            android:summary="@string/telegram_chat_summary"
+            android:icon="@drawable/telegram_icon">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/CesiumOS_Community"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="devs_category"
+        android:title="@string/devs_category" >
+
+        <Preference
+            android:title="Sahil Sonar"
+            android:summary="Founder and lead developer">
+        </Preference>
+
+        <Preference
+            android:title="TheAcanthite"
+            android:summary="Project co-ordinator">
+        </Preference>
+
+        <Preference
+            android:title="Nikhil"
+            android:summary="Lead designer">
+        </Preference>
+
+        <Preference
+            android:title="MIUNO"
+            android:summary="Co-designer">
+        </Preference>
+
+        <Preference
+            android:title="Sid"
+            android:summary="Co-project co-ordinator">
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="maintainers_category"
+        android:title="@string/maintainers_category" >
+
+        <Preference
+            android:title="Sahil Sonar"
+            android:summary="Redmi Note 8 Pro">
+        </Preference>
+
+        <Preference
+            android:title="Dinesh"
+            android:summary="Oneplus 3/3T maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Victor"
+            android:summary="Lenovo Z5s maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Samyak"
+            android:summary="Redmi K20 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Mohamed Arshad"
+            android:summary="Redmi 7 maintainer">
+        </Preference>
+
+        <Preference
+            android:title="HeroBuxx"
+            android:summary="Redmi Note 6 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Ayush"
+            android:summary="Redmi Note 5 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Saurav and Yasin JB"
+            android:summary="Redmi Note 7 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Prabhat"
+            android:summary="Asus Zenfone Max Pro M1">
+        </Preference>
+
+        <Preference
+            android:title="Flamefusion"
+            android:summary="Asus Zenfone Max M1">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen> 

@@ -20,13 +20,42 @@
     <!-- App Title -->
     <string name="config_center_title">Radioactive Tweaks</string>
 
-    <!-- Status bar tuner-->
+    <!-- Categories -->
     <string name="statusbar_category">Status bar</string>
+    <string name="lockscreen_category">Lockscreen</string>
+    <string name="uituner_category">UI tuner</string>
+    <string name="notifications_category">Notifications</string>
+    <string name="navigation_category">Navigation &amp; Buttons</string>
+    <string name="about_category">About</string>
+
+    <!-- Sub categories -->
+    <string name="statusbar_icons_category">Icons</string>
+    <string name="statusbar_gestures_category">Gestures</string>
+    <string name="network_traffic_indicator_category">Network indicator</string>
+    <string name="qs_category">Quick settings</string>
+    <string name="interface_category">Interface</string>
+    <string name="fod_category">Fingerprint on display</string>
+    <string name="navbar_category">Navigation bar</string>
+    <string name="buttons_category">Buttons</string>
+    <string name="links_category">Links</string>
+    <string name="devs_category">Devs</string>
+    <string name="maintainers_category">Maintainers</string>
+
+    <!-- About section -->
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_summary">Place where you will find newest builds for all officially supported devices</string>
+    <string name="telegram_channel">News channel</string>
+    <string name="telegram_channel_summary">Telegram channel where you will find changelogs, new features and general news about the rom</string>
+    <string name="telegram_chat">Support chat</string>
+    <string name="telegram_chat_summary">Telegram chat where we provide support for this rom</string>
+    <string name="donation_link">Donations</string>
+    <string name="donation_link_summary">If you like the rom and want to help buy us a coffee</string>
+
+    <!-- Status bar tuner-->
     <string name="statusbar_title">Icons</string>
     <string name="status_bar_items_summary">Add or remove status bar icons</string>
 
     <!-- Nav bar tuner-->
-    <string name="navbar_category">Navigation Bar</string>
     <string name="navigation_title">Navigation Bar</string>
     <string name="navbar_invert_layout_title">Invert layout</string>
     <string name="navbar_invert_layout_summary">Use inverted layout for navbar buttons</string>
@@ -40,7 +69,6 @@
     <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Lockscreen</string>
     <string name="lockscreen_tuner_title">Lockscreen bottom shortcuts</string>
     <string name="lockscreen_tuner_summary">Customize bottom left and right shortcuts</string>
 

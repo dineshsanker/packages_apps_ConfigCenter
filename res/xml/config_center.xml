@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2020 The CesiumOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,69 +19,40 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/config_center_title" >
 
-    <!-- Statusbar -->
-    <PreferenceCategory
+    <Preference
         android:key="statusbar_category"
-        android:title="@string/statusbar_category">
+        android:fragment="org.cesium.config.center.fragments.StatusBarFragment"
+        android:title="@string/statusbar_category"
+        android:icon="@drawable/statusbar_category_icon" />
 
-        <Preference
-            android:title="@string/statusbar_title"
-            android:summary="@string/status_bar_items_summary">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
-
-    </PreferenceCategory>
-
-
-    <!-- Navbar -->
-    <PreferenceCategory
-        android:key="navbar_category"
-        android:title="@string/navbar_category">
-
-        <!-- Navigation Bar -->
-        <Preference
-            android:key="navigation_category"
-            android:title="@string/navigation_title" 
-	        android:fragment="org.cesium.config.center.fragments.Navigation" />
-
-    </PreferenceCategory>
-
-    <!-- Gestures -->
-    <PreferenceCategory
-        android:key="gestures_category"
-        android:title="@string/gestures_category">
-
-        <!-- Double tap sleep on lockscreen -->
-        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_lockscreen"
-            android:title="@string/double_tap_sleep_lockscreen_title"
-            android:summary="@string/double_tap_sleep_lockscreen_summary"
-            android:defaultValue="false" />
-
-        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_gesture"
-            android:title="@string/double_tap_sleep_gesture_title"
-            android:summary="@string/double_tap_sleep_gesture_summary"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
-
-    <!-- Lock screen -->
-    <PreferenceCategory
+    <Preference
         android:key="lockscreen_category"
-        android:title="@string/lockscreen_category">
+	android:fragment="org.cesium.config.center.fragments.LockscreenFragment"
+        android:title="@string/lockscreen_category"
+        android:icon="@drawable/lockscreen_category_icon" />
 
-        <Preference
-            android:title="@string/lockscreen_tuner_title"
-            android:summary="@string/lockscreen_tuner_summary" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
-        </Preference>
+    <Preference
+        android:key="uituner_category"
+        android:fragment="org.cesium.config.center.fragments.UITunerFragment"
+        android:title="@string/uituner_category"
+        android:icon="@drawable/uituner_category_icon" />
+		
+    <Preference
+        android:key="notifications_category"
+        android:fragment="org.cesium.config.center.fragments.NotificationsFragment"
+        android:title="@string/notifications_category"
+        android:icon="@drawable/notifications_category_icon" />
 
+    <Preference
+        android:key="navigation_category"
+        android:fragment="org.cesium.config.center.fragments.NavigationFragment"
+        android:title="@string/navigation_category"
+        android:icon="@drawable/navigation_category_icon" />
 
-    </PreferenceCategory>
+    <Preference
+        android:key="about_category"
+        android:fragment="org.cesium.config.center.fragments.AboutFragment"
+        android:title="@string/about_category"
+        android:icon="@drawable/information_category_icon" />		
 
 </PreferenceScreen>
