@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (C) 2019 ExtendedUI
+ * Copyright (C) 2020 The CesiumOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,10 +16,14 @@
  * limitations under the License.
  */
 -->
-<resources>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/fod_icon_picker_title">
 
-    <color name="ambient_light_screen_color">#111111</color>
-    <color name="ambient_light_body_color">#323232</color>
-    <color name="fod_item_background_stroke_color">#d6d6d6</color>
+    <!-- Preview -->
+    <org.cesium.config.center.preferences.FODIconPicker
+            android:key="fod_icon"
+            android:layout="@layout/fod_picker_preference"
+            android:selectable="false"/>
 
-</resources>
+</PreferenceScreen>
