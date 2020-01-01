@@ -108,6 +108,9 @@
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
 
+    <string name="settings_suggestions">Dashboard suggestions</string>
+    <string name="settings_suggestions_summary">Enable aosp settings suggestions on main settings page\nNOTE: restart settings app to see effect</string>
+
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>

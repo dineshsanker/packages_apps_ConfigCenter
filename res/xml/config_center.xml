@@ -106,6 +106,12 @@
             android:summary="@string/enable_clear_all_button_summary"
             android:defaultValue="false" />
 
+        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
+            android:key="settings_suggestion_cards"
+            android:title="@string/settings_suggestions"
+            android:summary="@string/settings_suggestions_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <!-- Notifications -->
