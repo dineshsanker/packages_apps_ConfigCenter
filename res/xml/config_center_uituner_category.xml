@@ -25,6 +25,12 @@
             android:summary="@string/qs_bg_use_new_tint_summary"
             android:defaultValue="true" />
 
+        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_position_bottom_title"
+            android:summary="@string/qs_brightness_position_bottom_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <org.cesium.config.center.preferences.SystemSettingSwitchPreference

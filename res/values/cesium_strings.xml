@@ -135,5 +135,8 @@
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+   
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
 
 </resources>
