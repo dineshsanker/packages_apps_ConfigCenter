@@ -183,4 +183,7 @@
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
 
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
+    <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
+
 </resources>
