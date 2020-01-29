@@ -39,7 +39,7 @@ public class NavigationFragment extends SettingsPreferenceFragment
     private static final String SYSUI_NAV_BAR = "sysui_nav_bar";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
-    private ListPreference mNavBarLayout;
+    private SwitchPreference mNavBarLayout;
     private ContentResolver mResolver;
     private ListPreference mTorchPowerButton;
 
@@ -58,36 +58,27 @@ public class NavigationFragment extends SettingsPreferenceFragment
             mNavBarLayout.setValueIndex(0);
         }
         // screen off torch
-        mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
-        int mTorchPowerButtonValue = Settings.Secure.getInt(mResolver,
-                Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
-        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
-        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton = (SwitchPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        Boolean mTorchPowerButtonValue = Settings.Secure.getInt(mResolver,
+                Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0) != 0;
         mTorchPowerButton.setOnPreferenceChangeListener(this);
+        mTorchPowerButton.setChecked(mTorchPowerButtonValue);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        boolean DoubleTapPowerGesture = Settings.Secure.getInt(mResolver,
-                    Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 1) == 0;
         if (preference == mNavBarLayout) {
             Settings.Secure.putString(mResolver, SYSUI_NAV_BAR, (String) newValue);
             return true;
-        } 
+        }
         if (preference == mTorchPowerButton) {
-            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
-            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
-            mTorchPowerButton.setSummary(
-                    mTorchPowerButton.getEntries()[index]);
-            Settings.Secure.putInt(mResolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
-                    mTorchPowerButtonValue);
-            if (mTorchPowerButtonValue == 1 && DoubleTapPowerGesture) {
-                //if doubletap for torch is enabled, switch off double tap for camera
-                Settings.Secure.putInt(mResolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
-                        1);
-                Toast.makeText(getActivity(),
-                    (R.string.torch_power_button_gesture_dt_toast),
-                    Toast.LENGTH_SHORT).show();
+            boolean mTorchPowerButtonValue = (Boolean) newValue;
+            if (mTorchPowerButtonValue) {
+                Settings.Secure.putInt(mResolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                2);
+            } else {
+                Settings.Secure.putInt(mResolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                0);
             }
             return true;
         }
