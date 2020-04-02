@@ -44,6 +44,12 @@
         android:icon="@drawable/notifications_category_icon" />
 
     <Preference
+        android:key="battery_category"
+        android:fragment="org.cesium.config.center.fragments.Battery"
+        android:title="@string/battery_category"
+        android:icon="@drawable/battery_category_icon" />
+
+    <Preference
         android:key="navigation_category"
         android:fragment="org.cesium.config.center.fragments.NavigationFragment"
         android:title="@string/navigation_category"
