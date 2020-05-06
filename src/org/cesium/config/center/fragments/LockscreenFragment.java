@@ -36,8 +36,10 @@ public class LockscreenFragment extends SettingsPreferenceFragment
     public static final String TAG = "LockscreenFragment";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
+    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
 
     private ListPreference mLockClockFonts;
+    private ListPreference mLockDateFonts;
     private ContentResolver mResolver;
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
@@ -65,6 +67,11 @@ public class LockscreenFragment extends SettingsPreferenceFragment
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
 
+        mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
+        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 1)));
+        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        mLockDateFonts.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -79,6 +86,12 @@ public class LockscreenFragment extends SettingsPreferenceFragment
                     Integer.valueOf((String) newValue));
             mLockClockFonts.setValue(String.valueOf(newValue));
             mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+            return true;
+	}else if (preference.getKey() == LOCK_DATE_FONTS) {
+	    Settings.System.putInt(getContentResolver(), Settings.System.LOCK_DATE_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockDateFonts.setValue(String.valueOf(newValue));
+            mLockDateFonts.setSummary(mLockDateFonts.getEntry());
             return true;
 	}
         return false;
