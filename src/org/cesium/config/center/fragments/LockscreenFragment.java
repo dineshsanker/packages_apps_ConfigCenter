@@ -35,7 +35,9 @@ public class LockscreenFragment extends SettingsPreferenceFragment
 
     public static final String TAG = "LockscreenFragment";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
 
+    private ListPreference mLockClockFonts;
     private ContentResolver mResolver;
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
@@ -56,6 +58,13 @@ public class LockscreenFragment extends SettingsPreferenceFragment
                 Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
             mFingerprintVib.setOnPreferenceChangeListener(this);
         }
+
+	mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONT_STYLE);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONT_STYLE, 0)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -65,7 +74,13 @@ public class LockscreenFragment extends SettingsPreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
             return true;
-        }
+        }else if (preference.getKey() == LOCK_CLOCK_FONT_STYLE){
+	    Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONT_STYLE,
+                    Integer.valueOf((String) newValue));
+            mLockClockFonts.setValue(String.valueOf(newValue));
+            mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+            return true;
+	}
         return false;
     }
 
