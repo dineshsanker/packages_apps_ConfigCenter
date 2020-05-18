@@ -39,7 +39,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
-public class UiTunerFragment extends SettingsPreferenceFragment
+public class UITunerFragment extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String KEY_ASPECT_RATIO_APPS_ENABLED = "aspect_ratio_apps_enabled";
@@ -47,15 +47,16 @@ public class UiTunerFragment extends SettingsPreferenceFragment
     private static final String KEY_ASPECT_RATIO_CATEGORY = "aspect_ratio_category";
     private static final String KEY_ASPECT_RATIO_APPS_LIST_SCROLLER = "aspect_ratio_apps_list_scroller";
 
-    public static final String TAG = "UiTunerFragment";
+    public static final String TAG = "UITunerFragment";
 
+    private ContentResolver mResolver;
     private AppMultiSelectListPreference mAspectRatioAppsSelect;
     private ScrollAppsViewPreference mAspectRatioApps;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.config_center_uituner);
+        addPreferencesFromResource(R.xml.config_center_uituner_category);
         PreferenceScreen prefScreen = getPreferenceScreen();
 
         if (!getResources().getBoolean(com.android.internal.R.bool.config_supportsInDisplayFingerprint)) {

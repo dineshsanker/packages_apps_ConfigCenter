@@ -14,9 +14,8 @@
      limitations under the License.
 -->
 <PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-	android:title="@string/uituner_title" >
+    android:title="@string/uituner_category"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
         android:key="fod_category"
@@ -67,6 +66,18 @@
             android:title="@string/blur_quicksettings"
             android:summary="@string/blur_quicksettings_subtitle"
             android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="interface_category"
+        android:title="@string/interface_category">
+
+        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
+            android:key="settings_suggestion_cards"
+            android:title="@string/settings_suggestions"
+            android:summary="@string/settings_suggestions_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 
