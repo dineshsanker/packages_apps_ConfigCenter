@@ -9,6 +9,7 @@
         android:name="path"
         android:pathData="M 6.67 11 L 4 11 L 4 13 L 6.67 13 L 7.67 12 L 6.67 11 Z M 13 6.67 L 13 4 L 11 4 L 11 6.67 L 12 7.67 L 13 6.67 Z M 11 17.33 L 11 20 L 13 20 L 13 17.33 L 12 16.33 L 11 17.33 Z M 16.33 12 L 17.33 13 L 20 13 L 20 11 L 17.33 11 L 16.33 12 Z"
         android:fillColor="#737373"
+        android:fillAlpha="0.3"
         android:strokeWidth="1"/>
     <path
         android:name="path_1"
@@ -16,4 +17,3 @@
         android:fillColor="#737373"
         android:strokeWidth="1"/>
 </vector>
-
