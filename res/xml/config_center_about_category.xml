@@ -34,7 +34,7 @@
             android:icon="@drawable/telegram_icon">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/CesiumOS_Community"/>
+                android:data="https://t.me/CesiumOS_News"/>
         </Preference>
 
         <Preference
@@ -43,16 +43,7 @@
             android:icon="@drawable/telegram_icon">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/CesiumOS_News"/>
-        </Preference>
-
-        <Preference
-            android:title="@string/donation_link"
-            android:summary="@string/donation_link_summary"
-            android:icon="@drawable/donation_icon">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="#veryveryempty2"/>
+                android:data="https://t.me/CesiumOS_Community"/>
         </Preference>
 
     </PreferenceCategory>
@@ -62,8 +53,28 @@
         android:title="@string/devs_category" >
 
         <Preference
-            android:title="_Super_Vacant"
-            android:summary="You are running on a BETA Preview, no index data found!">
+            android:title="Sahil Sonar"
+            android:summary="Founder and lead developer">
+        </Preference>
+
+        <Preference
+            android:title="TheAcanthite"
+            android:summary="Project co-ordinator">
+        </Preference>
+
+        <Preference
+            android:title="Nikhil"
+            android:summary="Lead designer">
+        </Preference>
+
+        <Preference
+            android:title="MIUNO"
+            android:summary="Co-designer">
+        </Preference>
+
+        <Preference
+            android:title="Sid"
+            android:summary="Co-project co-ordinator">
         </Preference>
 
     </PreferenceCategory>
@@ -73,10 +84,74 @@
         android:title="@string/maintainers_category" >
 
         <Preference
-            android:title="_No_Data"
-            android:summary="You are running on a BETA Preview, no index data found!">
+            android:title="Sahil Sonar"
+            android:summary="Redmi Note 8 Pro and Poco X2 maintainer">
         </Preference>
 
+        <Preference
+            android:title="TheAcanthite"
+            android:summary="Redmi Note 4 maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Dinesh"
+            android:summary="Oneplus 3/3T maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Victor"
+            android:summary="Leeco Le2 and Lenovo Z5s maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Mandeep"
+            android:summary="Pocophone F1 maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Samyak"
+            android:summary="Redmi K20 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Amartya"
+            android:summary="Nexus 6P maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Mohamed Arshad"
+            android:summary="Redmi 7 maintainer">
+        </Preference>
+
+        <Preference
+            android:title="HeroBuxx"
+            android:summary="Redmi Note 6 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Ayush"
+            android:summary="Redmi Note 5 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Saurav"
+            android:summary="Redmi Note 7 Pro maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Srinivas"
+            android:summary="Redmi Note 8/8T maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Prabhat"
+            android:summary="Asus Zenfone Max Pro M1">
+        </Preference>
+
+        <Preference
+            android:title="Flamefusion"
+            android:summary="Asus Zenfone Max M1">
+        </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen> 
