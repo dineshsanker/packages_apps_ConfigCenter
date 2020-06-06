@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2020 The CesiumOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Categories -->
+    <string name="statusbar_category">Строка состояния</string>
+    <string name="lockscreen_category">Экран блокировки</string>
+    <string name="uituner_category">Настройка UI</string>
+    <string name="notifications_category">Уведомления</string>
+    <string name="battery_category">Батарея</string>
+    <string name="navigation_category">Навигация &amp; Кнопки</string>
+    <string name="about_category">О нас</string>
+
+    <!-- Sub categories -->
+    <string name="statusbar_icons_category">Иконки</string>
+    <string name="statusbar_gestures_category">Жесты</string>
+    <string name="network_traffic_indicator_category">Индикатор сети</string>
+    <string name="qs_category">Быстрые настройки</string>
+    <string name="interface_category">Интерфейс</string>
+    <string name="fod_category">Отпечаток пальца на дисплееy</string>
+    <string name="navbar_category">Строка навигации</string>
+    <string name="battery_title">Экономия батареи</string>
+    <string name="buttons_category">Кнопки</string>
+    <string name="links_category">Ссылки</string>
+    <string name="devs_category">Разработчики</string>
+    <string name="maintainers_category">Сопровождающие</string>
+
+    <!-- About section -->
+    <string name="downloads_title">Загрузки</string>
+    <string name="downloads_summary">Место, где вы найдете новейшие сборки для всех официально поддерживаемых устройств</string>
+    <string name="telegram_channel">Новостной канал</string>
+    <string name="telegram_channel_summary">Канал Telegram, где вы найдете список изменений, новые функции и общие новости о прошивке.</string>
+    <string name="telegram_chat">Чат поддержки</string>
+    <string name="telegram_chat_summary">Телеграм чат, где мы предоставляем поддержку</string>
+    <string name="donation_link">Пожертвования</string>
+    <string name="donation_link_summary">Если вам нравится прошивка и вы хотите помочь - купите нам кофе</string>
+
+    <!-- App Title -->
+    <string name="config_center_title">Радиоактивные настройки</string>
+
+    <!-- Status bar tuner-->
+    <string name="statusbar_title">Иконки</string>
+    <string name="status_bar_items_summary">Добавить или удалить значки в строке состояния</string>
+
+    <!-- Nav bar tuner-->
+    <string name="navigation_title">Строка навигации</string>
+    <string name="navigation_subtitle">Настроить строку навигации</string>
+    <string name="navbar_invert_layout_title">Инвертировать кнопки</string>
+    <string name="navbar_invert_layout_summary">Использовать инвертированные кнопки для строки состояния</string>
+    <string name="nav_bar_layout">Кнопки строки навигации</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category">Жесты</string>
+    <string name="double_tap_sleep_lockscreen_title">Дважды нажмите, чтобы перевести телефон в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести телефон в спящий режим</string>
+    <string name="double_tap_sleep_gesture_title">Дважды нажмите, чтобы перевести в спящий режим</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды нажмите на строку состояния, чтобы перевести устройство в спящий режим</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_tuner_title">Кнопки на экране блокировки</string>
+    <string name="lockscreen_tuner_summary">Настройте левую и правую кнопку внизу экрана</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_time_out_title">Тайм-аут</string>
+    <string name="heads_up_time_out_summary">Уведомления будут показываться <xliff:g id="number">%d</xliff:g> секунды</string>
+    <string name="heads_up_time_out_2sec">2 секунды</string>
+    <string name="heads_up_time_out_4sec">4 секунды</string>
+    <string name="heads_up_time_out_5sec">5 секунды</string>
+    <string name="heads_up_time_out_6sec">6 секунды</string>
+    <string name="heads_up_time_out_8sec">8 секунды</string>
+    <string name="heads_up_time_out_10sec">10 секунды</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Таймер повтора</string>
+    <string name="heads_up_snooze_summary_one_minute">Проведите пальцем вверх по уведомлению, чтобы отложить всплывающее уведомление этого приложения на 1 минуту.</string>
+    <string name="heads_up_snooze_summary">Проведите пальцем вверх по уведомлению, чтобы отложить всплывающее уведомление на <xliff:g id="number">%d</xliff:g> минут</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 минут</string>
+    <string name="heads_up_snooze_5min">5 минут</string>
+    <string name="heads_up_snooze_10min">10 минут</string>
+    <string name="heads_up_snooze_15min">15 минут</string>
+    <string name="heads_up_snooze_20min">20 минут</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Палитра цветов</string>
+    <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Применить</string>
+    <string name="color_default">По умолчанию</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="ambient_light_settings_title">Ambient light</string>
+    <string name="pulse_ambient_light_title">Краевое освещение</string>
+    <string name="pulse_ambient_light_summary">Подсветка боковых краев экрана при уведомлении</string>
+    <string name="pulse_ambient_light_color_title">Цвет освещения</string>
+
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Скрыть умные ответы</string>
+    <string name="hide_smart_replies_summary">Скрыть умные ответы, чтобы сэкономить место на экране</string>
+
+    <!-- Battery light -->
+    <string name="light_settings_header">Настройки LED индикатора</string>
+    <string name="battery_light_settings">Индикатор зарядки батареи</string>
+    <string name="battery_light_summary">Настройка для индикатора батареи</string>
+    <string name="battery_light_enable">Включить</string>
+    <string name="battery_light_allow_on_dnd_title">Индикатор батареи в режиме «Не беспокоить»</string>
+    <string name="battery_light_low_blinking_title">Мигающий индикатор при низком заряде батареи</string>
+    <string name="battery_light_cat">Цвет индикатора, когда устройство заряжается</string>
+    <string name="battery_light_low_color">Низкий заряд</string>
+    <string name="battery_light_medium_color">Средний заряд</string>
+    <string name="battery_light_full_color">Почти заряжен</string>
+    <string name="battery_light_reallyfull_color">Полностью заряжен</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">FOD иконки</string>
+    <string name="fod_icon_picker_summary">Выберите ваш любимый значок отпечатков пальцев</string>
+
+    <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">Используйте цвет обоев для FOD иконки</string>
+    <string name="fod_wallpaper_color_summary">Использует настроенный основной цвет обоев для значка FOD</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD распознавание анимации</string>
+    <string name="fod_recog_animation_summary">Показывает анимацию при чтении пальца</string>
+
+    <string name="settings_suggestions">Предложения по панели инструментов</string>
+    <string name="settings_suggestions_summary">Включить предложения настроек AOSP на странице основных настроек n\ ПРИМЕЧАНИЕ: перезапустите приложение настроек, чтобы увидеть эффект</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вибрирация</string>
+    <string name="fprint_sucess_vib_summary">Вибрация при успешной аутентификации по отпечатку пальца</string>
+
+    <!-- UI tuner -->
+    <string name="uituner_title">Настройка UI</string>
+    <string name="uituner_subtitle">Настройки пользовательского интерфейса</string>
+    <string name="enable_clear_all_button">Заменить текст на кнопку</string>
+    <string name="enable_clear_all_button_summary">Показывать кнопку очистки всех уведомлений в быстрых настройках вместо текста по умолчанию</string>
+    <string name="blur_quicksettings">Размытие за быстрыми настройками</string>
+    <string name="blur_quicksettings_subtitle">размывает затемненный фон за быстрыми настройками</string>
+    <string name="qs_datausage_title">Показать использование данных в заголовке быстрых настройках</string>
+    <string name="qs_datausage_subtitle">Показывает использование данных в заголовке быстрых настроек</string>
+
+    <!-- Per App aspect Ratio -->
+    <string name="action_save">Сохранить</string>
+    <string name="aspect_ratio_category_title">Масштабирование приложения</string>
+    <string name="aspect_ratio_apps_enabled_title">Принудительно увеличить соотношение сторон</string>
+    <string name="aspect_ratio_apps_enabled_summary">Разрешить выбранным приложениям использовать полный экран</string>
+    <string name="aspect_ratio_apps_list_title">Выбрать приложения</string>
+    <string name="aspect_ratio_apps_list_summary">Принудительно использовать полный экран для этих приложений</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Кнопка питания</string>
+    <string name="power_menu_title">Меню питания</string>
+    <string name="power_menu_subtitle">Настройте меню питания</string>
+    <string name="power_menu_screenshot_title">Скриншот</string>
+    <string name="power_menu_screenshot_summary">Длительное нажатие для записи экрана</string>
+    <string name="power_menu_airplane_title">Режим самолёта</string>
+    <string name="power_menu_lockdown_title">Lockdown</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Расширенный перезапуск</string>
+    <string name="advanced_reboot_summary">Когда разблокировано, включите опции в меню питания для перезапуска в режим восстановления или в загрузчик</string>
+    <string name="advanced_reboot_title_keyguard">Расширенный перезапуск на экране блокировки</string>
+    <string name="advanced_reboot_summary_keyguard">Включить расширенный перезапуск также на безопасном экране блокировки</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
+    <string name="volume_rocker_music_controls_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости будет переключать музыкальные треки</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">По умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">Индикатор сетевого трафика</string>
+    <string name="traffic_title_summary">Настройка индикаторов сетевого трафика</string>
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="network_traffic_type">Выберите тип трафика</string>
+    <string name="show_network_traffic_up">Отдача</string>
+    <string name="show_network_traffic_down">Загрузка</string>
+    <string name="show_network_traffic_all">Обе</string>
+    <string name="network_traffic_state_title">Показывать сетевую активность в статусбаре</string>
+    <string name="network_traffic_autohide_threshold_title">Порог по скрытию сетевой активности (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
+
+    <string name="notification_sound_vib_screen_on_title">Уведомления, если экран включен</string>
+    <string name="notification_sound_vib_screen_on_summary">Отключить, чтобы блокировать звук и вибрацию уведомлений, когда экран не спит</string>
+
+    <string name="media_art_title">Медиа-обложки</string>
+    <string name="media_art_summary">Показать обложку мультимедиа в качестве фона экрана блокировки</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Экран выключен</string>
+    <string name="torch_power_button_gesture_none">Отключить</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания</string>
+    <string name="torch_power_button_gesture_dt_toast">Жест перехода к камере теперь отключен</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажмитие на кнопку питания, чтобы включить фонарик</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вибрация при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
+
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Экономьте заряд батареи, отключив дополнительные пиксели</string>
+    <string name="smart_pixels_on_power_save_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="smart_pixels_on_power_save_summary">Включите с помощью экономии заряда батареи, чтобы увеличить энергосбережение</string>
+    <string name="smart_pixels_percent">Процент пикселей для отключения</string>
+    <string name="smart_pixels_shift">Интервал защиты от выгорания</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрессивная экономия батарея</string>
+    <string name="aggressive_idle_title">Агрессивный idle*</string>
+    <string name="aggressive_idle_summary">Ввод устройства в режим ожидания чаще и меньше просыпаться</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Запретить запуск приложений в фоновом режиме</string>
+    <string name="aggressive_battery_saver_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="aggressive_battery_saver_summary">Включить агрессивную батарею автоматически при использовании экономии заряда батареи</string>
+
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Показать заголовки уведомлений</string>
+    <string name="notification_headers_summary">Отображать ли заголовки уведомлений в стиле R (требуется перезапуск SystemUI)</string>
+
+    <!-- Lockscreen fonts - Common strings -->
+    <string name="lock_fonts_system_headline">Заголовок системы (по умолчанию)</string>
+    <string name="lock_fonts_system_body">System body</string>
+    <string name="lock_fonts_stock">Нормальный</string>
+    <string name="lock_fonts_bold">Жирный</string>
+    <string name="lock_fonts_italic">Курсив</string>
+    <string name="lock_fonts_bold_italic">Жирный курсив</string>
+    <string name="lock_fonts_light_italic">Светлый курсив</string>
+    <string name="lock_fonts_light">Светлый</string>
+    <string name="lock_fonts_condensed_normal">Уплотненный</string>
+    <string name="lock_fonts_condensed_italic">Уплотненный курсив</string>
+    <string name="lock_fonts_condensed_bold">Уплотненный жирный</string>
+    <string name="lock_fonts_condensed_bold_italic">Уплотненный жирный курсив</string>
+    <string name="lock_fonts_medium_normal">Средний</string>
+    <string name="lock_fonts_medium_italic">Средний курсив</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Варианты шрифтов часов</string>
+    <string name="lock_clock_font_summary">Изменить шрифт по умолчанию для виджета часов блокировки экрана</string>
+    <string name="lock_clock_font_dialog_title">Выберите шрифт блокировки часов</string>
+
+    <!-- Lockscreen fonts - other fonts, untranslatable by default -->
+    <!-- Custom fonts -->
+    <string name="lock_clock_font_abelreg" translatable="false">Abel</string>
+    <string name="lock_clock_font_adamcg" translatable="false">Adan CG Pro</string>
+    <string name="lock_clock_font_adventpro" translatable="false">Advent Pro</string>
+    <string name="lock_clock_font_alexananeue" translatable="false">Alexana Neue</string>
+    <string name="lock_clock_font_alienleague" translatable="false">Alien League</string>
+    <string name="lock_clock_font_archivo" translatable="false">Archivo Narrow</string>
+    <string name="lock_clock_font_autour" translatable="false">Autour One</string>
+    <string name="lock_clock_font_azedo" translatable="false">Azedo Light</string>
+    <string name="lock_clock_font_badscript" translatable="false">Bad Script</string>
+    <string name="lock_clock_font_bignoodleital" translatable="false">Big Noodle Tilting Italic</string>
+    <string name="lock_clock_font_bignoodle" translatable="false">Big Noodle Tilting</string>
+    <string name="lock_clock_font_biko" translatable="false">Biko</string>
+    <string name="lock_clock_font_blern" translatable="false">Blern</string>
+    <string name="lock_clock_font_cherryswash" translatable="false">Cherry Swash</string>
+    <string name="lock_clock_font_cocobiker" translatable="false">CoCoBiker</string>
+    <string name="lock_clock_font_codystar" translatable="false">Codystar</string>
+    <string name="lock_clock_font_fester" translatable="false">Fester</string>
+    <string name="lock_clock_font_ginorasans" translatable="false">Ginora Sans</string>
+    <string name="lock_clock_font_gobold" translatable="false">GoBold Light</string>
+    <string name="lock_clock_font_googlesans" translatable="false">Google Sans</string>
+    <string name="lock_clock_font_ibmplex" translatable="false">IBMPlex Mono</string>
+    <string name="lock_clock_font_inkferno" translatable="false">Inkferno</string>
+    <string name="lock_clock_font_instruction" translatable="false">Instruction</string>
+    <string name="lock_clock_font_jacklane" translatable="false">Jack Lane</string>
+    <string name="lock_clock_font_jura" translatable="false">Jura</string>
+    <string name="lock_clock_font_kellyslab" translatable="false">Kelly Slab</string>
+    <string name="lock_clock_font_metro1920" translatable="false">Metropolis 1920</string>
+    <string name="lock_clock_font_monad" translatable="false">Monad</string>
+    <string name="lock_clock_font_neonneon" translatable="false">Neonneon</string>
+    <string name="lock_clock_font_noir" translatable="false">Noir</string>
+    <string name="lock_clock_font_north" translatable="false">North</string>
+    <string name="lock_clock_font_outrunfuture" translatable="false">Outrun Future</string>
+    <string name="lock_clock_font_pompiere" translatable="false">Pompiere</string>
+    <string name="lock_clock_font_qontra" translatable="false">Qontra</string>
+    <string name="lock_clock_font_reemkufi" translatable="false">Reem Kufi</string>
+    <string name="lock_clock_font_riviera" translatable="false">Riviera</string>
+    <string name="lock_clock_font_roadrage" translatable="false">Road Rage</string>
+    <string name="lock_clock_font_seaweedsc" translatable="false">Seaweed Script</string>
+    <string name="lock_clock_font_sedgwick" translatable="false">Sedgwick Ave Display</string>
+    <string name="lock_clock_font_snowstorm" translatable="false">Snowstorm</string>
+    <string name="lock_clock_font_theoutbox" translatable="false">The Outbox</string>
+    <string name="lock_clock_font_union" translatable="false">Union</string>
+    <string name="lock_clock_font_vibur" translatable="false">Vibur</string>
+    <string name="lock_clock_font_voltaire" translatable="false">Voltaire</string>
+    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_dateown_font_themeable">Themeable (or Fox and Cat)</string>
+     
+    <!-- Lock date fonts -->
+    <string name="lock_date_font_title">Варианты шрифтов даты</string>
+    <string name="lock_date_font_summary">Изменить шрифт по умолчанию для виджета даты на экране блокировки</string>
+    <string name="lock_date_font_dialog_title">Выберите шрифт даты блокировки</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Режим "В кармане"</string>
+    <string name="pocket_judge_summary">Блокировать экран и кнопки ввода, когда устройство находится в кармане</string>
+</resources>
