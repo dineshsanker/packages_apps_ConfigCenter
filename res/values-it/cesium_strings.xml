@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2020 The CesiumOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Categories -->
+    <string name="statusbar_category">Barra di stato</string>
+    <string name="lockscreen_category">Blocco Schermo</string>
+    <string name="uituner_category">UI tuner</string>
+    <string name="notifications_category">Notifiche</string>
+    <string name="battery_category">Batteria</string>
+    <string name="navigation_category">Pulsanti e Navigazione</string>
+    <string name="about_category">Info</string>
+    <!-- Sub categories -->
+    <string name="statusbar_icons_category">Icone</string>
+    <string name="statusbar_gestures_category">Gesti</string>
+    <string name="network_traffic_indicator_category">Indicatori di rete</string>
+    <string name="qs_category">Impostazioni rapide</string>
+    <string name="interface_category">Interfaccia</string>
+    <string name="fod_category">Impronta digitale sullo schermo</string>
+    <string name="navbar_category">Barra di navigazione</string>
+    <string name="battery_title">Risparmio Energetico</string>
+    <string name="buttons_category">Pulsanti</string>
+    <string name="links_category">Collegamenti</string>
+    <string name="devs_category">Devs</string>
+    <string name="maintainers_category">Maintainers</string>
+    <!-- About section -->
+    <string name="downloads_title">Scarica</string>
+    <string name="downloads_summary">Luogo in cui troverai le ultime build per tutti i dispositivi ufficialmente supportati</string>
+    <string name="telegram_channel">Canale notizie</string>
+    <string name="telegram_channel_summary">Canale telegramma in cui si trovano i changelog, nuove funzionalità e notizie generali sulla Rom</string>
+    <string name="telegram_chat">Chat di supporto</string>
+    <string name="telegram_chat_summary">Chat di Telegram dove forniamo supporto per questa rom</string>
+    <string name="donation_link">Donazioni</string>
+    <string name="donation_link_summary">If you like the rom and want to help buy us a coffee</string>
+    <!-- App Title -->
+    <string name="config_center_title">Radioactive Tweaks</string>
+    <!-- Status bar tuner-->
+    <string name="statusbar_title">Icone</string>
+    <string name="status_bar_items_summary">Aggiungi o rimuovi icone nella barra di stato</string>
+    <!-- Nav bar tuner-->
+    <string name="navigation_title">Barra Di Navigazione</string>
+    <string name="navigation_subtitle">Personalizza la disposizione della barra di navigazione</string>
+    <string name="navbar_invert_layout_title">Inverti disposizione</string>
+    <string name="navbar_invert_layout_summary">Usa il layout invertito per i pulsanti della barra di navigazione</string>
+    <string name="nav_bar_layout">Disposizione della Navbar</string>
+    <!-- Gestures -->
+    <string name="gestures_category">Gesti</string>
+    <string name="double_tap_sleep_lockscreen_title">Doppio tocco per spegnere lo schermo</string>
+    <string name="double_tap_sleep_lockscreen_summary">Doppio tocco in qualsiasi punto della schermata di blocco per spegnere lo schermo</string>
+    <string name="double_tap_sleep_gesture_title">Doppio tocco per spegnere lo schermo</string>
+    <string name="double_tap_sleep_gesture_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
+    <!-- Lockscreen -->
+    <string name="lockscreen_tuner_title">Scorciatoie in basso</string>
+    <string name="lockscreen_tuner_summary">Personalizza le scorciatoie in basso a sinistra e destra</string>
+    <!-- Heads up -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Le notifiche saranno mostrate per <xliff:g id="number">%d</xliff:g> secondi</string>
+    <string name="heads_up_time_out_2sec">2 secondi</string>
+    <string name="heads_up_time_out_4sec">4 secondi</string>
+    <string name="heads_up_time_out_5sec">5 secondi</string>
+    <string name="heads_up_time_out_6sec">6 secondi</string>
+    <string name="heads_up_time_out_8sec">8 secondi</string>
+    <string name="heads_up_time_out_10sec">10 secondi</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Scorri verso l\'alto sulle notifiche per posticipare le notifiche fluttuanti dall\'applicazione per 1 minuto</string>
+    <string name="heads_up_snooze_summary">Scorri verso l\'alto sulle notifiche per posticipare le notifiche fluttuanti dall\'applicazione per <xliff:g id="number">%d</xliff:g> minuti</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minuti</string>
+    <string name="heads_up_snooze_10min">10 minuti</string>
+    <string name="heads_up_snooze_15min">15 minuti</string>
+    <string name="heads_up_snooze_20min">20 minuti</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selettore Colore</string>
+    <string name="press_color_to_apply">Premi sul colore qui sotto per applicare</string>
+    <string name="arrow_right">destra</string>
+    <string name="arrow_down">Giù</string>
+    <string name="hex">Esadecimale:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Impostato</string>
+    <string name="color_default">Predefinito</string>
+    <!-- Ambient edge lighting -->
+    <string name="ambient_light_settings_title">Luce ambientale</string>
+    <string name="pulse_ambient_light_title">Illuminazione bordi</string>
+    <string name="pulse_ambient_light_summary">Illumina i bordi laterali dello schermo all\'arrivo di una notifica</string>
+    <string name="pulse_ambient_light_color_title">Colore del bordo</string>
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Nascondi risposte intelligenti</string>
+    <string name="hide_smart_replies_summary">Nascondi le risposte intelligenti per risparmiare spazio sullo schermo con le notifiche peeking</string>
+    <!-- Battery light -->
+    <string name="light_settings_header">Impostazioni Led Notifiche</string>
+    <string name="battery_light_settings">Luce Di Ricarica Batteria</string>
+    <string name="battery_light_summary">Personalizzazione del Led della batteria</string>
+    <string name="battery_light_enable">Abilita</string>
+    <string name="battery_light_allow_on_dnd_title">Luce della batteria in modalità Non Disturbare</string>
+    <string name="battery_light_low_blinking_title">Luce lampeggiante con batteria scarica</string>
+    <string name="battery_light_cat">Colore del Led durante la ricarica</string>
+    <string name="battery_light_low_color">Batteria scarica</string>
+    <string name="battery_light_medium_color">Batteria 50%</string>
+    <string name="battery_light_full_color">Batteria quasi carica</string>
+    <string name="battery_light_reallyfull_color">Batteria carica (100)</string>
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Selettore icone FOD</string>
+    <string name="fod_icon_picker_summary">Scegli l\'icona preferita dell\'impronta digitale</string>
+    <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">Usa il colore dello sfondo per l\'icona FOD</string>
+    <string name="fod_wallpaper_color_summary">Usa il colore dello sfondo primario per l\'icona FOD</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Animazione riconoscimento FOD</string>
+    <string name="fod_recog_animation_summary">Mostra l\'animazione durante la lettura del dito</string>
+    <string name="settings_suggestions">Suggerimenti pannello impostazioni</string>
+    <string name="settings_suggestions_summary">Abilita i suggerimenti delle impostazioni aosp nella pagina delle impostazioni principali\nNOTA: riavvia l\'app delle impostazioni per vedere l\'effetto</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibrazione autenticazione impronte digitali</string>
+    <string name="fprint_sucess_vib_summary">Vibra all\'avvenuta autenticazione dell\'impronta digitale</string>
+    <!-- UI tuner -->
+    <string name="uituner_title">UI tuner</string>
+    <string name="uituner_subtitle">Personalizzazioni dell\'interfaccia utente</string>
+    <string name="enable_clear_all_button">Replace clear all text with nice button</string>
+    <string name="enable_clear_all_button_summary">Mostra il pulsante cancella tutte le notifiche nelle impostazioni rapide invece del testo predefinito</string>
+    <string name="blur_quicksettings">Sfoca dietro le impostazioni rapide </string>
+    <string name="blur_quicksettings_subtitle">sfoca lo sfondo scuro dietro le impostazioni rapide</string>
+    <string name="qs_datausage_title">Mostra l\'utilizzo dei dati nell\'intestazione qs</string>
+    <string name="qs_datausage_subtitle">Mostra l\'utilizzo dei dati nell\'intestazione delle impostazioni rapide della sim utilizzata per i dati</string>
+    <!-- Per App aspect Ratio -->
+    <string name="action_save">Salva</string>
+    <string name="aspect_ratio_category_title">Ridimensionamento app legacy</string>
+    <string name="aspect_ratio_apps_enabled_title">Forza proporzioni più elevate</string>
+    <string name="aspect_ratio_apps_enabled_summary">Consenti alle app selezionate di utilizzarle a schermo intero</string>
+    <string name="aspect_ratio_apps_list_title">Seleziona le app</string>
+    <string name="aspect_ratio_apps_list_summary">Forza lo schermo intero per queste app</string>
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Pulsante di accensione</string>
+    <string name="power_menu_title">Menu di accensione</string>
+    <string name="power_menu_subtitle">Personalizza il menu di accensione</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenshot_summary">Pressione prolungata per registrare lo schermo</string>
+    <string name="power_menu_airplane_title">Modalità aereo</string>
+    <string name="power_menu_lockdown_title">Blocca</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Riavvio avanzato</string>
+    <string name="advanced_reboot_summary">Quando sbloccato, includi le opzioni nel menù di spegnimento per riavviare in recovery o bootloader</string>
+    <string name="advanced_reboot_title_keyguard">Riavvio avanzato nella schermata di blocco</string>
+    <string name="advanced_reboot_summary_keyguard">Abilita il riavvio avanzato nella schermata di blocco</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Controllo della riproduzione</string>
+    <string name="volume_rocker_music_controls_summary">Quando lo schermo è spento, la pressione prolungata dei tasti del volume cambierà la traccia musicale</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valore: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Predefinito</string>
+    <string name="custom_seekbar_default_value_to_set">Valore predefinito: <xliff:g id="v">%s</xliff:g>\nPressione prolungata per impostare</string>
+    <string name="custom_seekbar_default_value_is_set">Il valore predefinito è impostato</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Indicatori di traffico</string>
+    <string name="traffic_title_summary">Personalizza gli indicatori del traffico di rete</string>
+    <string name="network_traffic_title">Traffico di rete</string>
+    <string name="network_traffic_type">Seleziona tipo di attività rete</string>
+    <string name="show_network_traffic_up">Upload</string>
+    <string name="show_network_traffic_down">Download</string>
+    <string name="show_network_traffic_all">Upload e Download</string>
+    <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi la soglia di attività di rete (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi le frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore di traffico</string>
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
+    <string name="notification_sound_vib_screen_on_summary">Disabilita per bloccare i suoni e la vibrazione delle notifiche quando lo schermo è acceso</string>
+    <string name="media_art_title">Copertina Multimediale</string>
+    <string name="media_art_summary">Mostra copertina multimediale come sfondo nella schermata di blocco</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Torcia a schermo spento</string>
+    <string name="torch_power_button_gesture_none">Disabilitato</string>
+    <string name="torch_power_button_gesture_dt">Doppio tocco pulsante di accensione</string>
+    <string name="torch_power_button_gesture_dt_toast">Passa al gesto della fotocamera è ora disabilitato</string>
+    <string name="torch_power_button_gesture_lp">Premi a lungo il pulsante di accensione per abilitare la torcia</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrazione In Chiamata</string>
+    <string name="incall_vibrate_connect_title">Vibra al collegamento</string>
+    <string name="incall_vibrate_call_wait_title">Vibra alla chiamata in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla disconnessione</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Risparmia batteria spegnendo i pixel aggiuntivi</string>
+    <string name="smart_pixels_on_power_save_title">Abilita automaticamente con il risparmio energetico</string>
+    <string name="smart_pixels_on_power_save_summary">Abilita con risparmio batteria per aumentare il risparmio energetico</string>
+    <string name="smart_pixels_percent">Percentuale di pixel da disattivare</string>
+    <string name="smart_pixels_shift">Intervallo di protezione Burn-in</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_idle_title">Idle Aggressivo</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Limita l\'esecuzione delle app in background</string>
+    <string name="aggressive_battery_saver_title">Abilita automaticamente con il risparmio energetico</string>
+    <string name="aggressive_battery_saver_summary">Abilita automaticamente la batteria aggressiva quando si utilizza il risparmio energetico</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Mostra intestazioni notifiche</string>
+    <string name="notification_headers_summary">Indica se mostrare le intestazioni di notifica in stile R (Richiede un riavvio della SystemUI)</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Rilevamento tasca</string>
+    <string name="pocket_judge_summary">Blocca lo schermo e i pulsanti quando il dispositivo è in tasca</string>
+</resources>
