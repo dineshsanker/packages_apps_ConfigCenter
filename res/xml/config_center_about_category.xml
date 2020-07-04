@@ -25,7 +25,7 @@
             android:icon="@drawable/website_icon">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="#veryveryempty"/>
+                android:data="https://sourceforge.net/projects/cesiumos-org/files/"/>
         </Preference>
 
         <Preference
@@ -114,11 +114,6 @@
         </Preference>
 
         <Preference
-            android:title="Amartya"
-            android:summary="Nexus 6P maintainer">
-        </Preference>
-
-        <Preference
             android:title="Mohamed Arshad"
             android:summary="Redmi 7 maintainer">
         </Preference>
@@ -134,7 +129,7 @@
         </Preference>
 
         <Preference
-            android:title="Saurav"
+            android:title="Saurav and Yasin JB"
             android:summary="Redmi Note 7 Pro maintainer">
         </Preference>
 
