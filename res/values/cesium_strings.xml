@@ -142,7 +142,7 @@
     <string name="fod_recog_animation_summary">Shows animation while reading your finger</string>
 
     <string name="settings_suggestions">Dashboard suggestions</string>
-    <string name="settings_suggestions_summary">Enable aosp settings suggestions on main settings page\nNOTE: restart settings app to see effect</string>
+    <string name="settings_suggestions_summary">Enable AOSP settings suggestions on main settings page (Requires a Settings restart) </string>
 
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
@@ -154,9 +154,9 @@
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
     <string name="blur_quicksettings">Blur behind quick settings </string>
-    <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
-    <string name="qs_datausage_title">Show data usage in qs header</string>
-    <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
+    <string name="blur_quicksettings_subtitle">Blurs darkened background behind quick settings</string>
+    <string name="qs_datausage_title">Show data usage on qs header</string>
+    <string name="qs_datausage_subtitle">Shows data usage on quick settings header of sim used for data</string>
 
     <!-- Per App aspect Ratio -->
     <string name="action_save">Save</string>
