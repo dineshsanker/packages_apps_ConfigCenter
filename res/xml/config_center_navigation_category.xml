@@ -36,4 +36,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="buttons_category"
+        android:title="@string/buttons_category" >
+      
+        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
+            android:summary="@string/volume_rocker_music_controls_summary"
+            android:title="@string/volume_rocker_music_controls_title"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen> 
