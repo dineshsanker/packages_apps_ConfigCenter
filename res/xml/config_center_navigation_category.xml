@@ -39,6 +39,12 @@
     <PreferenceCategory
         android:key="buttons_category"
         android:title="@string/buttons_category" >
+
+        <PreferenceScreen
+            android:key="power_menu"
+            android:title="@string/power_menu_title"
+            android:summary="@string/power_menu_subtitle"
+            android:fragment="org.cesium.config.center.fragments.PowerMenuActions" />
       
         <org.cesium.config.center.preferences.SystemSettingSwitchPreference
             android:key="volume_button_music_control"
