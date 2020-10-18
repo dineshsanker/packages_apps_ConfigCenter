@@ -40,12 +40,21 @@ public class NotificationsFragment extends SettingsPreferenceFragment
 
     public static final String TAG = "NotificationsFragment";
 
+    private Preference mChargingLeds;
     private ContentResolver mResolver;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.config_center_notifications_category);
+
+        PreferenceScreen prefScreen = getPreferenceScreen();
+        mChargingLeds = (Preference) findPreference("charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefScreen.removePreference(mChargingLeds);
+        }
     }
 
     @Override
