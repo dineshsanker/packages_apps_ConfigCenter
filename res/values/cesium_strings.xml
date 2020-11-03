@@ -273,4 +273,7 @@
     <string name="file_header_provider" translatable="false">file</string>
     <string name="status_bar_custom_header_height_title">Image height offset</string>
 
+    <string name="qs_bg_use_new_tint">QS tile colors</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
+
 </resources>

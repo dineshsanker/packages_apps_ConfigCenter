@@ -51,6 +51,12 @@
         android:title="@string/qs_category">
 
         <org.cesium.config.center.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="true" />
+
+        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
             android:key="dismiss_all_button"
             android:title="@string/enable_clear_all_button"
             android:summary="@string/enable_clear_all_button_summary"
