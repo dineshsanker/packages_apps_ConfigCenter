@@ -228,4 +228,8 @@
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
 
+    <!-- Old Mobile Type Icons -->
+    <string name="use_old_mobiletype_title">Old mobiletype</string>
+    <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal (SystemUI reboot required)</string>
+
 </resources>
