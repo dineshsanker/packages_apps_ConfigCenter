@@ -34,6 +34,13 @@
             android:entries="@array/nav_bar_layouts"
             android:entryValues="@array/nav_bar_layouts_values" />
 
+            <Preference
+            android:key="button_backlight"
+            android:title="@string/button_backlight_title"
+            android:summary="@string/button_backlight_summary"
+            android:fragment="org.cesium.config.center.fragments.ButtonBrightness"
+            android:dependency="hardware_keys_enable" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

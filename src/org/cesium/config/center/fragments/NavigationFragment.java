@@ -37,11 +37,13 @@ public class NavigationFragment extends SettingsPreferenceFragment
 
     private static final String NAV_BAR_LAYOUT = "nav_bar_layout";
     private static final String SYSUI_NAV_BAR = "sysui_nav_bar";
+    private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     private ListPreference mNavBarLayout;
     private ContentResolver mResolver;
     private SwitchPreference mTorchPowerButton;
+    private Preference mButtonBacklight;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +58,8 @@ public class NavigationFragment extends SettingsPreferenceFragment
             mNavBarLayout.setValue(navBarLayoutValue);
         } else {
             mNavBarLayout.setValueIndex(0);
+       boolean buttonBacklightSupported = getResources().getBoolean(
+                com.android.internal.R.bool.config_button_brightness_support);
         }
         // screen off torch
         mTorchPowerButton = (SwitchPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
@@ -84,6 +88,11 @@ public class NavigationFragment extends SettingsPreferenceFragment
         }
         return false;
     }
+
+    mButtonBacklight = (Preference) findPreference(KEY_BUTTON_BACKLIGHT);
+   if (!buttonBacklightSupported) {
+            mButtonBacklight.setVisible(false);
+        }
 
     @Override
     public int getMetricsCategory() {
