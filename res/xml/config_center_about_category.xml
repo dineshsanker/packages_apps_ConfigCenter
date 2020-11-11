@@ -63,6 +63,12 @@
         </Preference>
 
         <Preference
+            android:title="Sid"
+            android:summary="Project co-ordinator">
+        </Preference>
+
+
+        <Preference
             android:title="Nikhil"
             android:summary="Lead designer">
         </Preference>
@@ -70,11 +76,6 @@
         <Preference
             android:title="MIUNO"
             android:summary="Co-designer">
-        </Preference>
-
-        <Preference
-            android:title="Sid"
-            android:summary="Co-project co-ordinator">
         </Preference>
 
     </PreferenceCategory>
@@ -89,38 +90,48 @@
         </Preference>
 
         <Preference
+            android:title="Sahil Sonar"
+            android:summary="Pocophone F1">
+        </Preference>
+
+        <Preference
             android:title="Dinesh"
-            android:summary="Oneplus 3/3T maintainer">
+            android:summary="Oneplus 3/3T">
         </Preference>
 
         <Preference
             android:title="Victor"
-            android:summary="Lenovo Z5s maintainer">
-        </Preference>
-
-        <Preference
-            android:title="Samyak"
-            android:summary="Redmi K20 Pro maintainer">
+            android:summary="Lenovo Z5s">
         </Preference>
 
         <Preference
             android:title="Mohamed Arshad"
-            android:summary="Redmi 7 maintainer">
-        </Preference>
-
-        <Preference
-            android:title="HeroBuxx"
-            android:summary="Redmi Note 6 Pro maintainer">
+            android:summary="Redmi 7">
         </Preference>
 
         <Preference
             android:title="Ayush"
-            android:summary="Redmi Note 5 Pro maintainer">
+            android:summary="Redmi Note 5 Pro">
+        </Preference>
+
+        <Preference
+            android:title="HeroBuxx"
+            android:summary="Redmi Note 6 Pro">
+        </Preference>
+
+        <Preference
+            android:title="Alisson Grizotti"
+            android:summary="Redmi Note 7">
         </Preference>
 
         <Preference
             android:title="Saurav and Yasin JB"
-            android:summary="Redmi Note 7 Pro maintainer">
+            android:summary="Redmi Note 7 Pro">
+        </Preference>
+
+        <Preference
+            android:title="Takeshiro"
+            android:summary="Xiaomi Mi A1">
         </Preference>
 
         <Preference
@@ -129,9 +140,10 @@
         </Preference>
 
         <Preference
-            android:title="Flamefusion"
-            android:summary="Asus Zenfone Max M1">
+            android:title="Sid"
+            android:summary="Nokia 6.1 Plus">
         </Preference>
+
     </PreferenceCategory>
 
-</PreferenceScreen> 
+</PreferenceScreen>
