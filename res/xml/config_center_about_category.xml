@@ -46,6 +46,15 @@
                 android:data="https://t.me/CesiumOS_Community"/>
         </Preference>
 
+        <Preference
+            android:title="@string/donation_link"
+            android:summary="@string/donation_link_summary"
+            android:icon="@drawable/donation_icon">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.paypal.com/paypalme/cesiumpenguin"/>
+        </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
