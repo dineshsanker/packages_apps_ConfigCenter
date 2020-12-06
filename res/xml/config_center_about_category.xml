@@ -67,6 +67,21 @@
         </Preference>
 
         <Preference
+            android:title="Victor"
+            android:summary="Core developer">
+        </Preference>
+
+        <Preference
+            android:title="Harsh"
+            android:summary="Core developer">
+        </Preference>
+
+        <Preference
+            android:title="Yasin"
+            android:summary="Developer Relations Manager">
+        </Preference>
+
+        <Preference
             android:title="TheAcanthite"
             android:summary="Project co-ordinator">
         </Preference>
@@ -76,6 +91,20 @@
             android:summary="Project co-ordinator">
         </Preference>
 
+        <Preference
+            android:title="Fred"
+            android:summary="Server Infrastructure Maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Aashil"
+            android:summary="Infrastructure Maintainer">
+        </Preference>
+
+        <Preference
+            android:title="Paget96"
+            android:summary="App Developer">
+        </Preference>
 
         <Preference
             android:title="Nikhil"
@@ -94,13 +123,28 @@
         android:title="@string/maintainers_category" >
 
         <Preference
-            android:title="Sahil Sonar"
-            android:summary="Redmi Note 8 Pro">
+            android:title="Prabhat"
+            android:summary="Asus Zenfone Max Pro M1">
         </Preference>
 
         <Preference
-            android:title="Sahil Sonar"
-            android:summary="Pocophone F1">
+            android:title="Flamefusion"
+            android:summary="Asus Zenfone Max M1">
+        </Preference>
+
+        <Preference
+            android:title="Victor"
+            android:summary="LeEco Le2">
+        </Preference>
+
+        <Preference
+            android:title="Victor"
+            android:summary="Lenovo Z5s">
+        </Preference>
+
+        <Preference
+            android:title="Sid"
+            android:summary="Nokia 6.1 Plus">
         </Preference>
 
         <Preference
@@ -109,8 +153,18 @@
         </Preference>
 
         <Preference
-            android:title="Victor"
-            android:summary="Lenovo Z5s">
+            android:title="Sahil Sonar"
+            android:summary="Poco F1">
+        </Preference>
+
+        <Preference
+            android:title="Debayan Kar"
+            android:summary="Realme 1">
+        </Preference>
+
+        <Preference
+            android:title="Debayan Kar, Sakthivel"
+            android:summary="Realme U1">
         </Preference>
 
         <Preference
@@ -134,23 +188,23 @@
         </Preference>
 
         <Preference
-            android:title="Saurav and Yasin JB"
+            android:title="Yasin"
             android:summary="Redmi Note 7 Pro">
+        </Preference>
+
+        <Preference
+            android:title="Harsh"
+            android:summary="Redmi Note 8">
+        </Preference>
+
+        <Preference
+            android:title="Sahil Sonar"
+            android:summary="Redmi Note 8 Pro">
         </Preference>
 
         <Preference
             android:title="Takeshiro"
             android:summary="Xiaomi Mi A1">
-        </Preference>
-
-        <Preference
-            android:title="Prabhat"
-            android:summary="Asus Zenfone Max Pro M1">
-        </Preference>
-
-        <Preference
-            android:title="Sid"
-            android:summary="Nokia 6.1 Plus">
         </Preference>
 
     </PreferenceCategory>
