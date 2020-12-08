@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2020 The CesiumOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="config_center_title">Радиоактивные настройки</string>
+    <!-- Categories -->
+    <string name="statusbar_category">Строка состояния</string>
+    <string name="lockscreen_category">Экран блокировки</string>
+    <string name="uituner_category">Настройка UI</string>
+    <string name="notifications_category">Уведомления</string>
+    <string name="battery_category">Батарея</string>
+    <string name="navigation_category">Навигация &amp; Кнопки</string>
+    <string name="about_category">О нас</string>
+    <!-- Sub categories -->
+    <string name="statusbar_icons_category">Иконки</string>
+    <string name="statusbar_gestures_category">Жесты</string>
+    <string name="network_traffic_indicator_category">Индикатор сети</string>
+    <string name="qs_category">Быстрые настройки</string>
+    <string name="interface_category">Интерфейс</string>
+    <string name="fod_category">Отпечаток пальца на дисплееy</string>
+    <string name="navbar_category">Строка навигации</string>
+    <string name="battery_title">Экономия батареи</string>
+    <string name="buttons_category">Кнопки</string>
+    <string name="links_category">Ссылки</string>
+    <string name="devs_category">Разработчики</string>
+    <string name="maintainers_category">Сопровождающие</string>
+    <!-- About section -->
+    <string name="downloads_title">Загрузки</string>
+    <string name="downloads_summary">Место, где вы найдете новейшие сборки для всех официально поддерживаемых устройств</string>
+    <string name="telegram_channel">Новостной канал</string>
+    <string name="telegram_channel_summary">Канал Telegram, где вы найдете список изменений, новые функции и общие новости о прошивке.</string>
+    <string name="telegram_chat">Чат поддержки</string>
+    <string name="telegram_chat_summary">Телеграм чат, где мы предоставляем поддержку</string>
+    <string name="donation_link">Пожертвования</string>
+    <string name="donation_link_summary">Если вам нравится прошивка и вы хотите помочь - купите нам кофе</string>
+    <!-- Status bar tuner-->
+    <string name="statusbar_title">Иконки</string>
+    <string name="status_bar_items_summary">Добавить или удалить значки в строке состояния</string>
+    <!-- Nav bar tuner-->
+    <string name="navigation_title">Строка навигации</string>
+    <string name="navbar_invert_layout_title">Инвертировать кнопки</string>
+    <string name="navbar_invert_layout_summary">Использовать инвертированные кнопки для строки состояния</string>
+    <string name="nav_bar_layout">Кнопки строки навигации</string>
+    <!-- Gestures -->
+    <string name="gestures_category">Жесты</string>
+    <string name="double_tap_sleep_lockscreen_title">Дважды нажмите, чтобы перевести телефон в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести телефон в спящий режим</string>
+    <string name="double_tap_sleep_gesture_title">Дважды нажмите, чтобы перевести в спящий режим</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды нажмите на строку состояния, чтобы перевести устройство в спящий режим</string>
+    <!-- Lockscreen -->
+    <string name="lockscreen_tuner_title">Кнопки на экране блокировки</string>
+    <string name="lockscreen_tuner_summary">Настройте левую и правую кнопку внизу экрана</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Палитра цветов</string>
+    <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Цвет:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Применить</string>
+    <string name="color_default">По умолчанию</string>
+    <string name="qs_bg_use_new_tint">Цвета плиток быстрых настроек</string>
+    <string name="qs_bg_use_new_tint_summary">Использовать цвет акцента для иконок плиток быстрых настроек и фона</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вибрация при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
+    <!-- Battery light -->
+    <string name="light_settings_header">Настройки LED индикатора</string>
+    <string name="battery_light_settings">Индикатор зарядки батареи</string>
+    <string name="battery_light_summary">Настройка для индикатора батареи</string>
+    <string name="battery_light_enable">Включить</string>
+    <string name="battery_light_allow_on_dnd_title">Индикатор батареи в режиме «Не беспокоить»</string>
+    <string name="battery_light_low_blinking_title">Мигающий индикатор при низком заряде батареи</string>
+    <string name="battery_light_cat">Цвет индикатора, когда устройство заряжается</string>
+    <string name="battery_light_low_color">Низкий заряд</string>
+    <string name="battery_light_medium_color">Средний заряд</string>
+    <string name="battery_light_full_color">Почти заряжен</string>
+    <string name="battery_light_reallyfull_color">Полностью заряжен</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Показать заголовки уведомлений</string>
+    <string name="notification_headers_summary">Отображать ли заголовки уведомлений в стиле R (требуется перезапуск SystemUI)</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G значок</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
+    <string name="volume_rocker_music_controls_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости будет переключать музыкальные треки</string>
+    <string name="media_art_title">Медиа-обложки</string>
+    <string name="media_art_summary">Показать обложку мультимедиа в качестве фона экрана блокировки</string>
+    <!-- Global Actions -->
+    <string name="power_menu_title">Меню питания</string>
+    <string name="power_menu_subtitle">Настройте меню питания</string>
+    <string name="global_actions_power">Питание</string>
+    <string name="global_actions_restart">Перезагрузка</string>
+    <string name="global_actions_airplane">Авиарежим</string>
+    <string name="global_actions_settings">Настройки</string>
+    <string name="global_actions_lockdown">Заблокировать</string>
+    <string name="global_actions_soundpanel">Звуковая панель</string>
+    <string name="global_actions_users">Пользователи</string>
+    <string name="global_actions_screenshot">Снимок экрана</string>
+    <string name="global_actions_screenrecord">Запись экрана</string>
+    <string name="global_actions_flashlight">Фонарик</string>
+    <string name="global_actions_emergency">Экстренный</string>
+    <string name="global_actions_advanced_reboot_title">Включить дополнительную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">При перезапуске также показывать опции для восстановления и загрузчика</string>
+    <string name="qs_brightness_position_bottom_title">Ползунок яркости внизу</string>
+    <string name="qs_brightness_position_bottom_summary">Показать ползунок яркости в быстрых настройках внизу</string>
+    <string name="qs_show_brightness_above_footer_title">Над нижним колонтитулом</string>
+    <string name="qs_show_brightness_above_footer_summary">Показать нижний ползунок яркости над кнопкой быстрых настроек</string>
+    <string name="qs_show_auto_brightness_title">Значок автояркости</string>
+    <string name="qs_show_auto_brightness_summary">Показать переключатель автояркости рядом со слайдером яркости</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Отображать панель громкости слева</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вибрирация</string>
+    <string name="fprint_sucess_vib_summary">Вибрация при успешной аутентификации по отпечатку пальца</string>
+    <string name="fprint_error_vib_title">Вибрация отпечатка пальца</string>
+    <string name="fprint_error_vib_summary">Вибрация при не успешной аутентификации по отпечатку пальца</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Экран выключен</string>
+    <string name="torch_power_button_gesture_none">Отключить</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания</string>
+    <string name="torch_power_button_gesture_dt_toast">Жест перехода к камере теперь отключен</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажмитие на кнопку питания, чтобы включить фонарик</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Экономьте заряд батареи, отключив дополнительные пиксели</string>
+    <string name="smart_pixels_on_power_save_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="smart_pixels_on_power_save_summary">Включите с помощью экономии заряда батареи, чтобы увеличить энергосбережение</string>
+    <string name="smart_pixels_percent">Процент пикселей для отключения</string>
+    <string name="smart_pixels_shift">Интервал защиты от выгорания</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрессивная экономия батарея</string>
+    <string name="aggressive_idle_title">Агрессивный idle*</string>
+    <string name="aggressive_idle_summary">Ввод устройства в режим ожидания чаще и меньше просыпаться</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Запретить запуск приложений в фоновом режиме</string>
+    <string name="aggressive_battery_saver_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="aggressive_battery_saver_summary">Включить агрессивную батарею автоматически при использовании экономии заряда батареи</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Индикатор батареи</string>
+    <string name="battery_percent_summary">Настроить стиль значка и текста для индикатора батареи в строке состояния</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Пунктирный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрытая</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрытая</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_date_title">Часы и дата</string>
+    <string name="clock_options_title">Настройки часов</string>
+    <string name="clock_options_summary">Настройка часов в строке состояния</string>
+    <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показывать часы и дату</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_date_title">Настройки даты</string>
+    <string name="status_bar_am_pm_title">Стиль AM/PM</string>
+    <string name="status_bar_am_pm_info">24-часовой формат включен</string>
+    <string name="status_bar_am_pm_normal">Обычный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрыто (по умолчанию)</string>
+    <string name="clock_seconds_display">Показать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_display_none">Не отображать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Обычный</string>
+    <string name="clock_date_style_lowercase">Строчные буквы</string>
+    <string name="clock_date_style_uppercase">Прописные буквы</string>
+    <string name="clock_date_format_custom">Пользовательский формат java</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должен быть в формате даты, например. ММ/дд/гг</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="clock_date_right">Справа от времени</string>
+    <string name="clock_date_left">Слева от времени</string>
+    <string name="clock_date_position">Расположение даты</string>
+</resources>

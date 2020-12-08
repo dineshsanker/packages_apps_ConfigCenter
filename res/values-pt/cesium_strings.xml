@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2020 The CesiumOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="config_center_title">Ajustes radioativos</string>
+    <!-- Categories -->
+    <string name="statusbar_category">Barra de status</string>
+    <string name="lockscreen_category">Tela de bloqueio</string>
+    <string name="uituner_category">UI tuner</string>
+    <string name="notifications_category">Notificações</string>
+    <string name="battery_category">Bateria</string>
+    <string name="navigation_category">Navegação &amp; Botões</string>
+    <string name="about_category">Sobre</string>
+    <!-- Sub categories -->
+    <string name="statusbar_icons_category">Ícones</string>
+    <string name="statusbar_gestures_category">Gestos</string>
+    <string name="network_traffic_indicator_category">Indicador de Rede</string>
+    <string name="qs_category">Ajustes rápidos</string>
+    <string name="interface_category">Interface</string>
+    <string name="fod_category">Impressão digital na tela</string>
+    <string name="navbar_category">Barra de Navegação</string>
+    <string name="battery_title">Economia de Bateria</string>
+    <string name="buttons_category">Botões</string>
+    <string name="links_category">Links</string>
+    <string name="devs_category">Devs</string>
+    <string name="maintainers_category">Mantenedores</string>
+    <!-- About section -->
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_summary">Coloque onde você encontrará versões mais recentes para todos os dispositivos suportados oficialmente</string>
+    <string name="telegram_channel">Canal de Notícias</string>
+    <string name="telegram_channel_summary">Canal do Telegram onde você encontrará registros de mudanças, novos recursos e notícias gerais sobre a Rom</string>
+    <string name="telegram_chat">Chat de suporte</string>
+    <string name="telegram_chat_summary">Bate-papo do Telegram onde fornecemos suporte para esta Rom</string>
+    <string name="donation_link">Doações</string>
+    <string name="donation_link_summary">Se você gostou da rom e quer ajudar a nos comprar um café</string>
+    <!-- Status bar tuner-->
+    <string name="statusbar_title">Ícones</string>
+    <string name="status_bar_items_summary">Adicionar ou remover ícones da barra de status</string>
+    <!-- Nav bar tuner-->
+    <string name="navigation_title">Barra de Navegação</string>
+    <string name="navbar_invert_layout_title">Inverter layout</string>
+    <string name="navbar_invert_layout_summary">Usar layout invertido para botões da barra de navegação</string>
+    <string name="nav_bar_layout">Layout de navegação</string>
+    <!-- Gestures -->
+    <string name="gestures_category">Gestos</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo para desligar a tela</string>
+    <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para colocar o telefone para dormir</string>
+    <string name="double_tap_sleep_gesture_title">Toque duplo para desligar a tela</string>
+    <string name="double_tap_sleep_gesture_summary">Toque duplo na barra de status para desligar a tela</string>
+    <!-- Lockscreen -->
+    <string name="lockscreen_tuner_title">Atalhos inferiores na Tela de bloqueio</string>
+    <string name="lockscreen_tuner_summary">Personalizar atalhos do canto inferior esquerdo e direito</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Selecionador de Cor</string>
+    <string name="press_color_to_apply">Selecione a cor abaixo para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Aplicar</string>
+    <string name="color_default">Padrão</string>
+    <string name="qs_bg_use_new_tint">Cores das QS</string>
+    <string name="qs_bg_use_new_tint_summary">Usar cor de destaque para ícones do botão Qs e fundo</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibração durante chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+    <!-- Battery light -->
+    <string name="light_settings_header">Configurações do Notif. Led</string>
+    <string name="battery_light_settings">Luz da bateria carregando</string>
+    <string name="battery_light_summary">Personalização para o LED da bateria</string>
+    <string name="battery_light_enable">Ativado</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não Perturbe</string>
+    <string name="battery_light_low_blinking_title">Luz piscante quando bateria fraca</string>
+    <string name="battery_light_cat">Cor da luz da bateria enquanto carregando</string>
+    <string name="battery_light_low_color">Bateria fraca</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase carregada</string>
+    <string name="battery_light_reallyfull_color">Bateria cheia (100%)</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Cabeçalhos de Notificação</string>
+    <string name="notification_headers_summary">Mostrar cabeçalhos na aba de notificações\nRequer uma reinicialização da interface do sistema</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ícone 4G</string>
+    <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez LTE</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Controle de Reprodução</string>
+    <string name="volume_rocker_music_controls_summary">Quando a tela estiver desligada, segurar os botões de volume irá procurar faixas de música</string>
+    <string name="media_art_title">Capa da mídia</string>
+    <string name="media_art_summary">Mostrar a capa do álbum como fundo da tela de bloqueio</string>
+    <!-- Global Actions -->
+    <string name="power_menu_title">Menu de energia</string>
+    <string name="power_menu_subtitle">Personalizar menu de energia</string>
+    <string name="global_actions_power">Liga/Desliga</string>
+    <string name="global_actions_restart">Reiniciar</string>
+    <string name="global_actions_airplane">Modo avião</string>
+    <string name="global_actions_settings">Confirgurações</string>
+    <string name="global_actions_lockdown">Lock Down</string>
+    <string name="global_actions_soundpanel">Painel de Som</string>
+    <string name="global_actions_users">Utilizadores</string>
+    <string name="global_actions_screenshot">Captura</string>
+    <string name="global_actions_screenrecord">Gravar tela</string>
+    <string name="global_actions_flashlight">Lanterna</string>
+    <string name="global_actions_emergency">Emergência</string>
+    <string name="global_actions_advanced_reboot_title">Ativar reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_summary">Ao reiniciar também mostra opções para recuperação e bootloader</string>
+    <string name="qs_brightness_position_bottom_title">Barra de brilho na parte inferior</string>
+    <string name="qs_brightness_position_bottom_summary">Mostrar controle de brilho deslizante na parte inferior das configurações rápidas</string>
+    <string name="qs_show_brightness_above_footer_title">Acima do rodapé</string>
+    <string name="qs_show_brightness_above_footer_summary">Mostrar controle deslizante de brilho inferior acima das configurações rápidas</string>
+    <string name="qs_show_auto_brightness_title">Botão do brilho automático</string>
+    <string name="qs_show_auto_brightness_summary">Mostrar um brilho automático quando perto do controle deslizante de brilho</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibração na impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar na autenticação da impressão digital concluída</string>
+    <string name="fprint_error_vib_title">Vibrar no erro da impressão</string>
+    <string name="fprint_error_vib_summary">Vibrar na autenticação de erro de impressão digital</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Desligar a lanterna</string>
+    <string name="torch_power_button_gesture_none">Desabilitado</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga</string>
+    <string name="torch_power_button_gesture_dt_toast">Ir para o gesto da câmera está agora desativado</string>
+    <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Pixels Inteligentes</string>
+    <string name="smart_pixels_summary">Poupa bateria ao desligar alguns píxeis</string>
+    <string name="smart_pixels_on_power_save_title">Ativar automaticamente na economia de bateria</string>
+    <string name="smart_pixels_on_power_save_summary">Habilitar com economia de bateria para aumentar a economia de energia</string>
+    <string name="smart_pixels_percent">Porcentagem de pixels a desativar</string>
+    <string name="smart_pixels_shift">Intervalo de proteção Burn-in</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Bateria Agressiva</string>
+    <string name="aggressive_idle_title">Inatividade agressiva</string>
+    <string name="aggressive_idle_summary">Colocar o dispositivo em inatividade mais frequentemente e acordá-lo menos vezes</string>
+    <string name="aggressive_standby_title">Standby Agressivo</string>
+    <string name="aggressive_standby_summary">Restringir aplicativos de executarem em segundo plano</string>
+    <string name="aggressive_battery_saver_title">Ativar automaticamente na economia de bateria</string>
+    <string name="aggressive_battery_saver_summary">Ativar Bateria Agressiva automaticamente ao usar a economia de bateria</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de bateria</string>
+    <string name="battery_percent_summary">Configure os estilos do ícone e texto para o indicador de bateria na barra de status</string>
+    <string name="status_bar_battery_style_title">Estilo da Bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo preenchido</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Escondido</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da Bateria</string>
+    <string name="status_bar_battery_percentage_default">Escondido</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_date_title">Relógio e Data</string>
+    <string name="clock_options_title">Opções do relógio</string>
+    <string name="clock_options_summary">Personalize seu relógio na barra de status</string>
+    <string name="status_bar_clock_date_summary">Personalizar o relógio e a data da barra de status</string>
+    <string name="status_bar_clock_title">Definições do Relógio</string>
+    <string name="status_bar_clock_show">Mostrar hora e data</string>
+    <string name="status_bar_clock_style_title">Estilo do relógio</string>
+    <string name="status_bar_clock_style_right">Direita</string>
+    <string name="status_bar_clock_style_center">Centralizado</string>
+    <string name="status_bar_clock_style_left">Esquerda</string>
+    <string name="status_bar_date_title">Configuração de Data</string>
+    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="status_bar_am_pm_info">Relógio de 24 horas está ativado</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Pequeno</string>
+    <string name="status_bar_am_pm_hidden">Escondido (padrão)</string>
+    <string name="clock_seconds_display">Mostrar segundos</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Exibir a data personalizada antes do relógio</string>
+    <string name="clock_date_display_none">Não exibir</string>
+    <string name="clock_date_display_small">Tamanho da fonte pequena</string>
+    <string name="clock_date_display_normal">Tamanho da fonte normal</string>
+    <string name="clock_date_style">Estilo da Data</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúsculo</string>
+    <string name="clock_date_style_uppercase">Maiúsculo</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format">Formato da Data</string>
+    <string name="clock_date_string_edittext_title">Deve estar em formato de data, por exemplo: MM/dd/aa</string>
+    <string name="clock_date_string_edittext_summary">Insira os caracteres</string>
+    <string name="clock_date_right">À direita do relógio</string>
+    <string name="clock_date_left">À esquerda do relógio</string>
+    <string name="clock_date_position">Posição da Data</string>
+</resources>
