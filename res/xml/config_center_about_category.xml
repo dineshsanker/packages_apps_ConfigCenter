@@ -82,7 +82,7 @@
         </Preference>
 
         <Preference
-            android:title="TheAcanthite"
+            android:title="Gagan Malvi"
             android:summary="Project co-ordinator">
         </Preference>
 
@@ -170,6 +170,11 @@
         <Preference
             android:title="Mohamed Arshad"
             android:summary="Redmi 7">
+        </Preference>
+
+        <Preference
+            android:title="Gagan Malvi"
+            android:summary="Redmi Note 4X">
         </Preference>
 
         <Preference
