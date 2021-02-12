@@ -51,6 +51,7 @@ public class NavigationFragment extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.config_center_navigation_category);
         mResolver = getActivity().getContentResolver();
 
+        mButtonBacklight = (ListPreference) findPreference(KEY_BUTTON_BACKLIGHT);
         mNavBarLayout = (ListPreference) findPreference(NAV_BAR_LAYOUT);
         mNavBarLayout.setOnPreferenceChangeListener(this);
         String navBarLayoutValue = Settings.Secure.getString(mResolver, SYSUI_NAV_BAR);
@@ -89,12 +90,7 @@ public class NavigationFragment extends SettingsPreferenceFragment
         return false;
     }
 
-    mButtonBacklight = (Preference) findPreference(KEY_BUTTON_BACKLIGHT);
-   if (!buttonBacklightSupported) {
-            mButtonBacklight.setVisible(false);
-        }
-
-    @Override
+   @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CUSTOM_SETTINGS;
     }
